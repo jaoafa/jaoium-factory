@@ -7,7 +7,7 @@ function jaoium-factory:factory/block-move/move-vertical-block
 # 各処理
 execute if block 570 -47 2 gravel run function jaoium-factory:factory/block-process/gold-block
 execute if block 562 -47 2 gold_block run function jaoium-factory:factory/block-process/magic/1
-execute if block 553 -43 2 minecraft:chest{Items: [{Slot: 26b, id: "minecraft:splash_potion"}]} run function jaoium-factory:factory/block-process/chest-move
+execute if block 553 -43 2 minecraft:chest{Items: [{Slot: 26b}]} run function jaoium-factory:factory/block-process/chest-move
 
 # 各ブロックスポーン
 function jaoium-factory:factory/summon-block
