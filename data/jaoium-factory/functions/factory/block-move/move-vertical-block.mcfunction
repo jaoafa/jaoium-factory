@@ -11,3 +11,9 @@ setblock 573 -63 2 chain
 # TNT
 clone 569 -63 6 569 -48 6 569 -62 6 replace force
 setblock 569 -63 6 chain
+
+# プレイヤー移動
+
+execute as @a[x=569,y=-47,z=6,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
+execute as @a[x=569,y=-47,z=-2,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
+execute as @a[x=573,y=-47,z=2,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~

@@ -25,9 +25,5 @@ execute as @a[x=555,y=-46,z=1,dx=17,dy=-2,dz=2] at @s run tp ~-1 ~ ~
 execute as @a[x=568,y=-48,z=-2,dx=2,dy=2,dz=2] at @s run tp ~ ~ ~1
 execute as @a[x=568,y=-48,z=4,dx=2,dy=2,dz=1] at @s run tp ~ ~ ~-1
 
-# 垂直
-execute as @a[x=569,y=-47,z=6,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
-execute as @a[x=569,y=-47,z=-2,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
-execute as @a[x=573,y=-47,z=2,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
 
 
