@@ -15,3 +15,19 @@ execute if block 569 -47 6 tnt run function jaoium-factory:factory/block-move/ho
 # 金ブロック
 clone 569 -47 2 563 -47 2 562 -47 2 replace force
 execute if block 569 -47 2 gold_block run setblock 569 -47 2 air
+
+
+# プレイヤー移動
+# 中央
+execute as @a[x=555,y=-46,z=1,dx=17,dy=-2,dz=2] at @s run tp ~-1 ~ ~
+
+# 水平
+execute as @a[x=568,y=-48,z=-2,dx=2,dy=2,dz=2] at @s run tp ~ ~ ~1
+execute as @a[x=568,y=-48,z=4,dx=2,dy=2,dz=1] at @s run tp ~ ~ ~-1
+
+# 垂直
+execute as @a[x=569,y=-47,z=6,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
+execute as @a[x=569,y=-47,z=-2,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
+execute as @a[x=573,y=-47,z=2,dx=0,dy=-16,dz=0] at @s run tp ~ ~1 ~
+
+
