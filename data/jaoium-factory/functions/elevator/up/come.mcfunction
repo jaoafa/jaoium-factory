@@ -5,6 +5,7 @@ execute if block 579 66 -20 observer run tellraw @a[x=577,y=69,z=-20,distance=..
 
 # 下にかごがあれば動かす
 execute if block 579 -51 -20 observer run function jaoium-factory:elevator/down/close-door/1
+execute if block 579 -51 -20 observer run tellraw @a[x=577,y=69,z=-20,distance=..5] ["",{"text":"[jaoiumFactory] ","color":"red"},"しばらくお待ちください。"]
 
 # 上にかごがなければ待ってもらうよう通知
-execute unless block 579 66 -20 observer run tellraw @a[x=577,y=69,z=-20,distance=..5] ["",{"text":"[jaoiumFactory] ","color":"red"},"しばらくお待ちください。"]
+execute unless block 579 -51 -20 observer unless block 579 66 -20 observer run tellraw @a[x=577,y=69,z=-20,distance=..5] ["",{"text":"[jaoiumFactory] ","color":"red"},"現在、搭乗している人がいるので呼び出せません。"]
