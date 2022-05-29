@@ -1,6 +1,7 @@
 {
     "values": [
         "jaoium-factory:elevator/check-cargo",
+        "jaoium-factory:elevator/status-lamp",
         "jaoium-factory:factory/factory-timing",
         "jaoium-factory:factory/particles",
         "jaoium-factory:factory/block-process/magic/potion-spawn"
