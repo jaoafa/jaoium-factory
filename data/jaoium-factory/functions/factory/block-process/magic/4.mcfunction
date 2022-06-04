@@ -7,5 +7,7 @@ particle minecraft:dragon_breath 561 -43 2 0 0 0 0.05 100
 
 kill @e[x=561,y=-47,z=2,dx=0,dy=5,dz=0]
 
+setblock 548 -56 0 redstone_block
+
 scoreboard players set __SPAWN_POTION__ jaoiumFactory 1
 schedule function jaoium-factory:factory/block-process/magic/5 10t
